@@ -1,0 +1,26 @@
+h2{
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 50px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 12px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: green;
+    color: black;
+    padding: 14px 14px;
+    border: None;
+    border-radius: 14px;
+}
+body {
+    background-color: darkseagreen;
+    padding: 20px;
+    font-size: 20px;
+    font-family:"Arial";
+}

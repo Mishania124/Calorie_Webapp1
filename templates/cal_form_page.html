@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+<h2>The Calorie Calculation</h2>
+<p>Fill in the form and click the button to get the results</p>
+<form action="/cal_form" method="post">
+    {{calform.weight.label}}{{calform.weight}}
+    <br>
+    {{calform.height.label}}{{calform.height}}
+    <br>
+    {{calform.age.label}}{{calform.age}}
+    <br>
+    {{calform.country.label}}{{calform.country}}
+    <br>
+    {{calform.city.label}}{{calform.city}}
+    <br>
+
+    <br>
+    {{calform.button}}
+    <br>
+    {% if result==True %}
+    <h3>You need {{res}} calories (kcal) today</h3>
+    {% endif %}
+</form>
+</body>
+</html>
